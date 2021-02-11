@@ -1,0 +1,28 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:20rem;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flexItem {
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexItem:first-child {
+    margin: 0;
+}
+.flexItem--1{
+    align-self: start;
+    flex-basis: 350px;
+}
+.flexItem--2{
+    flex-grow: 1;
+}
+.flexItem--4{
+    align-self: stretch;
+    flex-grow: 2;
+}
